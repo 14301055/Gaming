@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <include
+        android:id="@+id/header"
+        layout="@layout/header" />
+    <ImageButton
+        android:id="@+id/head_scul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@android:drawable/btn_star" >
+       </ImageButton>
+    <TextView
+        android:id="@+id/nick_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="昵称">
+         </TextView>
+    
+     <TextView
+         android:id="@+id/state_num"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="10dp"
+          android:text="全部状态(10)" >
+            </TextView>
+
+     <ListView
+         android:id="@+id/Statelist"
+         android:layout_width="match_parent"
+         android:layout_height="206dp" 
+         android:layout_marginTop="10dp">
+     </ListView>
+     <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+         >
+         <Button 
+         android:id="@+id/follow"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="关注"
+           android:layout_marginLeft="50dp"
+          android:layout_marginBottom="10dp"
+         />
+             <Button 
+         android:id="@+id/hotspot"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="热门"
+          android:layout_marginLeft="50dp"
+          android:layout_marginBottom="10dp"
+         />
+    
+    </LinearLayout>
+     
+
+</LinearLayout>

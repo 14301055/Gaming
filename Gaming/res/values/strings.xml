@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gaming</string>
+
+    <!-- 头部 -->
+    <string name="news_top_left_text1">GAMING</string>
+    <string name="news_top_left_text2">--每个人的电子竞技</string>
+    <string name="news_top_left_text3">--比赛详情</string>
+    <string name="news_top_left_text4">--赛事列表</string>
+    <string name="title_news_category_tops">DOTA</string>
+    <string name="title_news_category_info">LOL</string>
+    <string name="title_news_category_blog">炉石</string>
+    <string name="title_news_category_magazine">守望</string>
+    <string name="title_news_category_domain">星际</string>
+    <string name="title_news_category_more">其他</string>
+    <string name="img_duoyun_desc">天气预报</string>
+    <!-- 报名比赛界面 -->
+    <string name="m_title1">DDOTA2亚洲邀请赛</string>
+    <string name="m_title1_text">DOTA2亚洲邀请赛hhh</string>
+    <string name="m_title2_text">所有DOTA2玩家的共同努力创下了超过300万美金的奖金池，这是DOTA2历史上除Ti以外第一个官方认证的重量级国际性赛事，也是当前Major特锦赛模式的雏形，不仅有iG，EHOME， Newbee，LGD，VG等国内豪门参与，还邀请了包括EG，NaVi，Secret，MVP等多支海外强队。最终EG战队用这场赛事开启了他们2015年的辉煌，年轻中单Sumail在此一战成名。无论是精彩纷呈的比赛，还是热情洋溢的观众，2015年DAC都给我们留下了不可磨灭的印象。</string>
+    <string name="m_title3_text">YF咖啡独家赞助</string>
+    <string name="m_title4_text">报名截止：2017/5/18</string>
+    <!-- 滑动区域文字及链接 -->
+    <string name="title1">TI7 DOTA国际邀请赛将在安康举办</string>
+    <string name="title2">LOL S6报名开始</string>
+    <string name="title3">炉石传说：安戈洛之前的最后大赛</string>
+    <string name="title4">星际智商杯开始啦</string>
+    <string name="title5">守望先锋：胜者队可对战IG</string>
+    
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <!-- 登录 -->
+    <string name="title_main">Gaming游戏竞技平台</string>
+    <string name="userName">用户名</string>
+    <string name="password">密码</string>
+    <string name="forgetPassword">忘记密码</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="instruction">使用说明</string>
+    <!-- 主界面 -->
+    <string name="welcome">欢迎使用！</string>
+    <!-- 注册 -->
+    <string name="repassword">重复密码</string>
+    <string name="register_title">注册</string>
+    <string name="spin_prompt">联系方式</string>
+    <string name="sex">性别</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="telephone">telephone</string>
+    <string-array name="communication_way">
+        <item>手机号</item>
+        <item>邮箱</item>
+        <item>QQ</item>
+        <item>微信</item>
+        <item>其他</item>
+    </string-array>
+    <!-- 注册须知 -->
+    <string name="titleOfInstrction">注册须知</string>
+    <string name="agreement">怎么作为一个文件传入</string>
+    <string name="agree">我同意</string>
+    <string name="disagree">我不同意</string>
+    <string name="next">下一步</string>
+    <string name="goback">返回</string>
+    <!-- 使用说明 -->
+    <string name="content">	1、用户必须提供真实的个人信息\n2、本产品最终解释权由第六开发小组拥有</string>
+    <string name="exit">退出</string>
+    <string name="title_activity_user_zoom">UserZoom</string>
+    <string name="title_activity_other_zoom">OtherZoom</string>
+    <string name="title_activity_apply">Apply</string>
+    <!-- 使用说明 -->
+    <string name="theme">曼享杯·炉石传说</string>
+    <string name="time">时间：4月15日</string>
+    <string name="place">地点：交大科技大厦慢想咖啡厅</string>
+    <string name="host">举办方：慢想咖啡</string>
+    <string name="condition">报名要求：等级20以上</string>
+    <string name="bonus">奖金：5000元</string>
+    <string name="title_activity_forget">Forget</string>
+    <!-- 找回密码 -->
+    <string name="tip">通过密保验证找回密码</string>
+    <string name="title_activity_forget_key">ForgetKey</string>
+    <string name="prompt_password">Answer (Necessary)</string>
+
+</resources>

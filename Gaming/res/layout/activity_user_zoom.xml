@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+    <include
+        android:id="@+id/header"
+        layout="@layout/header" />
+    <ImageButton
+        android:id="@+id/head_scul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@android:drawable/btn_star" >
+       </ImageButton>
+    <TextView
+        android:id="@+id/nick_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="昵称">
+         </TextView>
+     <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <Button 
+          android:id="@+id/focus"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+          android:layout_marginTop="10dp"
+          android:text="关注" >
+       </Button>
+         <Button 
+          android:id="@+id/fans"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="10dp"
+          android:layout_marginLeft="60dp"
+          android:text="粉丝 ">
+       </Button>
+    </LinearLayout>"
+     <TextView
+         android:id="@+id/Exp_num"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="10dp"
+          android:text="比赛经历(10)" >
+            </TextView>
+
+     <ListView
+         android:id="@+id/Explist"
+         android:layout_width="match_parent"
+         android:layout_height="100dp" 
+         android:layout_marginTop="10dp">
+     </ListView>
+     
+     <Button 
+         android:id="@+id/publish"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="发布比赛"
+          android:layout_gravity="center_horizontal"
+          android:layout_marginTop="10dp"
+         />
+          <Button 
+         android:id="@+id/mygame"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="我的比赛"
+          android:layout_gravity="center_horizontal"
+         android:layout_marginTop="10dp"
+         />
+
+</LinearLayout>

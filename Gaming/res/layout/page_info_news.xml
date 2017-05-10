@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+ 	 <RelativeLayout
+        android:id="@+id/layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:background="#990000" >
+
+        <TextView
+            android:id="@+id/tv_netease_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:text="@string/news_top_left_text1" />
+
+        <TextView
+            android:id="@+id/tv_netease_top2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/tv_netease_top"
+            android:text="@string/news_top_left_text4"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/duoyun"
+            android:contentDescription="@string/img_duoyun_desc" />
+    </RelativeLayout>
+    
+    <ListView
+        android:id="@+id/listview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/dividerimage1" >
+    </ListView>
+    
+</LinearLayout>

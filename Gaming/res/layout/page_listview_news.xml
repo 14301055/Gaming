@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:descendantFocusability="afterDescendants"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <!-- 比赛大标题 -->
+    <TextView 
+        android:id="@+id/m_title1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:lines="1" >
+    </TextView>
+    <!-- 比赛图片和比赛概要 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal" >
+     <ImageView
+        android:id="@+id/m_imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp" ></ImageView>
+    <TextView
+        android:id="@+id/summary"
+        android:layout_marginLeft="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lines="3" ></TextView>
+    </LinearLayout>
+    
+    <!-- 比赛截止日期以及赞助商名字 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:orientation="horizontal" >
+    <TextView
+        android:id="@+id/m_author"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF" ></TextView>
+     <TextView
+        android:id="@+id/m_deadLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" ></TextView>
+    </LinearLayout>
+</LinearLayout>

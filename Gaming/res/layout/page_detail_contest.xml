@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:id="@+id/layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:background="#990000" >
+
+        <TextView
+            android:id="@+id/tv_netease_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:text="@string/news_top_left_text1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/tv_netease_top"
+            android:text="@string/news_top_left_text3"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/duoyun"
+            android:contentDescription="@string/img_duoyun_desc" />
+    </RelativeLayout>
+    
+	<TextView
+	    android:id="@+id/textView_detail_id"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="15sp"
+	    android:gravity="center"
+	    android:text="YF咖啡杯-炉石传说"
+	    />
+	<TextView
+	    android:id="@+id/textView_detail_deadline"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="15sp"
+	    android:gravity="center"
+	    android:text="报名截止：5月17号12：00 "
+	    />
+	<TextView
+	    android:id="@+id/textView_detail_data"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="15sp"
+	    android:gravity="center"
+	    android:text="比赛时间：5月18号"
+	    />
+	<TextView
+	    android:id="@+id/textView_detail_address"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="15sp"
+	    android:gravity="center"
+	    android:text="地点：北京交通大学YF楼三楼"
+	    />
+	<TextView
+	    android:id="@+id/textView_detail_host"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="15sp"
+	    android:gravity="center"
+	    android:text="举办方：YF咖啡"
+	    />
+	<TextView
+	    android:id="@+id/textView_detail_request"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="15sp"
+	    android:gravity="center"
+	    android:text="报名要求：排名模式20级以上"
+	    />
+	<TextView
+	    android:id="@+id/textView_detail_rule"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="20sp"
+	    android:gravity="center"
+	    android:text="比赛规则：此处填写比赛规则"
+	    />
+	<TextView
+	    android:id="@+id/textView_detail_award"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="20sp"
+	    android:gravity="center"
+	    android:text="奖金：2000元"
+	    />
+	
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2dp"
+        android:gravity="center|center_horizontal"
+        android:orientation="horizontal" >
+	<Button
+	    android:id="@+id/button_detail_1"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:text="我要报名"    
+	    /> 
+    <Button
+	    android:id="@+id/button_detail_2"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:text="报名详情"
+	    /> 
+	 </LinearLayout>
+	 
+	<TextView
+	    android:id="@+id/textView_detail_review_1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="10sp"
+	    android:gravity="center"
+	    android:text="热评：我要去yf咖啡拿第一哈哈哈哈"
+	    />
+	<TextView
+	    android:id="@+id/textView_detail_review_2"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="10sp"
+	    android:gravity="center"
+	    android:text="热评：炉石传说比赛最精彩了"
+	    />
+</LinearLayout>
